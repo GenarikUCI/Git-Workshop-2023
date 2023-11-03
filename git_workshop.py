@@ -4,16 +4,18 @@ import math
 # rename your function
 def func1(num_a):
     # placeholder return, replace with your own function
-    return -1
+    return num_a*num_a
 
 def func2(num_b):
     # placeholder return, replace with your own function
-    return -1
+    return num_b*num_b
 
 # both people should modify this function
 def func3(num_a, num_b):
+
     # do something with inputs and print something
-    print("placeholder output")
+    print("your value is", num_a*num_b)
+
 
 a = 1
 b = 1
